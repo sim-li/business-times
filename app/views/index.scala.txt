@@ -1,0 +1,7 @@
+@import model.BusinessTime
+@import views.Rendering.renderBusinessTimesForAllWeekdays
+
+@(businessTimesByWeekday: Map[String, List[BusinessTime]])
+
+@for(rendered <- renderBusinessTimesForAllWeekdays(businessTimesByWeekday)) {@rendered
+}

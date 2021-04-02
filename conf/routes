@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET     /assets/*file                       controllers.Assets.versioned(path="/public", file: Asset)
+GET     /businessTimes/render    controllers.BusinessTimesController.businessTimesRenderEndpoint()
