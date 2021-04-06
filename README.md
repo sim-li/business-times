@@ -24,7 +24,7 @@ The current format is:
     ] 
 ```
 I like the generic approach of representing opening and closing times as a series of 
-JS objects that could be seen like events describing how the "opening state" of the restaurant changes
+objects that could be seen as events describing how the "opening state" of the restaurant changes
 over time.
 
 This is definately a nice idea. I see potential for an universal format that can be 
